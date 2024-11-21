@@ -24,10 +24,10 @@ a {
 header {
   /* height: calc(100vh - 150px);
   background: no-repeat url(/assets/vivatur1.jpg);
-  width: 100%; */
+  width: 100%;  */
   height: calc(50vh - 70px);
   text-align: center;
-  padding-inline: 100px;
+  padding-inline: 10px;
 }
 
 
@@ -55,7 +55,7 @@ header nav ul {
 }
 
 header nav ul li {
-  margin: 0 15px;
+  margin: 0 30px;
   font-weight: 600;
   cursor: pointer;
 }
@@ -102,10 +102,15 @@ button {
 /* PACOTES */
 
 
+.viva{
+  margin-left: 555px;
+  padding-top: 10px;
+}
+
 .pacotes {
   background-color: rgba(235, 231, 231, 0.363);
   padding: 25px;
-  padding: 160px;
+  padding: 80px;
 }
 
 .pacotes .pacotes-cards {
@@ -373,6 +378,7 @@ button {
   .contato .contato-card {
     left: 40px;
   }
+  
 }
 
 @media (max-width: 850px) {
